@@ -1,0 +1,24 @@
+%button-globals {
+  @include border-radius(10px);
+  @include font-size(14);
+  background-image: url(../images/arrow.png);
+  background-color: $azul;
+  .svg & {
+    background-image: url(../images/arrow.svg);
+  }
+  &:hover {
+    background-color: darken($azul,10%);
+  }
+}
+
+.button {
+  @extend %button-globals;
+}
+.button-large {
+  @extend %button-globals;
+  @include font-size(16);
+}
+
+.submit-action {
+  @extend %button-globals;
+}
