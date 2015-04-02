@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-family: "Exo", Verdana, sans-serif; }
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  list-style: none;
+  text-decoration: none;
+  color: #58585A;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-size: 10px;
+  font-size: 1rem;
+  max-width: 1024px;
+  margin: 0 auto; }
+
+header {
+  background: url("../img/header.jpg") no-repeat;
+  height: 600px;
+  background-size: cover; }
+
+nav {
+  margin-left: 31%; }
+
+nav li {
+  text-align: center;
+  display: inline-block;
+  margin-left: 15px;
+  font-size: 15px; }
+
+.color-white {
+  color: #fff; }
+
+.title-header {
+  font-weight: 900;
+  font-size: 45px;
+  text-align: center; }
+
+/*# sourceMappingURL=style.css.map */
