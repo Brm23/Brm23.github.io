@@ -53,7 +53,7 @@ nav li {
   background-position: 0%; }
 
 .content-contacteme {
-  background: url("../img/this-me.jpg") no-repeat;
+  background: url("../img/camaleon-1.png") no-repeat;
   height: 600px;
   background-size: cover;
   background-position: 0%; }
@@ -180,10 +180,11 @@ section .section-2 {
   border: 1px solid;
   padding: 1rem;
   margin: 1rem;
-  background: transparent; }
+  background: transparent;
+  color: #fff; }
 
 .send {
-  margin-left: 2rem;
+  margin-left: 8rem;
   margin-top: 4px;
   float: left; }
 
