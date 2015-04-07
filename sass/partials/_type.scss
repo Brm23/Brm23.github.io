@@ -1,14 +1,47 @@
-// #titles
+// titles
+
 .title {
-  color: $azul;
-  font-family: $sans;
-}
-.subtitle {
-  font-family: $serif;
+  color: $gris-title;
+  font-family: $exo;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 42px;
+  text-shadow: #000 4px 3px;
 }
 
-.logged-in {
-  .title {
-    color: red;
-  }
+.subtitle {
+  font-family: $exo;
+}
+
+.title-header {
+	font-weight: 900;
+	font-size: 45px;
+	text-align: center;
+}
+
+.about-me {
+	.title {
+		color: $naranja;
+		text-align: left;
+        margin-left: 158px;
+	}
+}
+
+.content-trabajos {
+	.title{
+		color: $naranja;
+	}
+}
+
+.Skills {
+	.title {
+		color: $blanco;
+	}
+}
+
+.content-contacteme {
+	.title {
+		color: $blanco;
+		margin-bottom: 50px;
+	}
 }

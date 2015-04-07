@@ -1,4 +1,5 @@
 // border radius
+
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;
      -moz-border-radius: $radius;
@@ -6,7 +7,70 @@
           border-radius: $radius;
 }
 // font-size mixin
+
 @mixin font-size($size) {
   font-size: $size + px;
   font-size: ($size / 10) + rem;
+}
+
+
+//////////////////
+
+//skills
+
+.ch-info-wrap{
+	-webkit-perspective: 800px;
+	-moz-perspective: 800px;
+	-o-perspective: 800px;
+	-ms-perspective: 800px;
+	perspective: 800px;
+
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+}
+.ch-info{
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	-ms-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+		
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.ch-info > div {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	-o-backface-visibility: hidden;
+	-ms-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+
+.ch-info {
+		.ch-info-back {
+		-webkit-transform: rotate3d(0,1,0,180deg);
+		-moz-transform: rotate3d(0,1,0,180deg);
+		-o-transform: rotate3d(0,1,0,180deg);
+		-ms-transform: rotate3d(0,1,0,180deg);
+		transform: rotate3d(0,1,0,180deg);	
+		background: #000;
+	}
+}
+
+.ch-item:hover {
+	.ch-info {
+		-webkit-transform: rotate3d(0,1,0,-180deg);
+		-moz-transform: rotate3d(0,1,0,-180deg);
+		-o-transform: rotate3d(0,1,0,-180deg);
+		-ms-transform: rotate3d(0,1,0,-180deg);
+		transform: rotate3d(0,1,0,-180deg);
+    }
 }

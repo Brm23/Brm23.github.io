@@ -5,12 +5,27 @@ $azul: #005ead;
 $gris-oscuro: #333;
 $rojo: #ff1100;
 $blanco: #fff;
+$gris-title: #58585A;
+$naranja: rgb(240,185,95);
+$black: #000;
 
 // Tipografías
 $exo: "Exo", Verdana, sans-serif;
 $serif: Georgia, 'Times New Roman', serif;
 
-// Grid sizes
-$grid-context: 960px;
-$grid-sidebar: 300px;
-$grid-main-content: 600px;
+// Grid size
+$grid-content-about: 520px;
+$grid-content-contacteme: 600px;
+
+// imagenes 
+$imagen-header: url("../img/header.jpg")no-repeat;
+$imagen-about: url("../img/brm-flor.jpg")no-repeat;
+$imagen-skills: url("../img/pensar.jpg")no-repeat;
+$imagen-trabajos: url("../img/fish.jpg")no-repeat;
+$imagen-contacteme: url("../img/this-me.jpg")no-repeat;
+$imagen-ch-info-wrap: url("../img/bg.jpg")no-repeat;
+$imagen-html5: url("../img/html5.jpg")no-repeat;
+$imagen-css3: url("../img/css3.jpg")no-repeat;
+$imagen-javascript: url("../img/js.jpg")no-repeat;
+$imagen-photoshop: url("../img/photoshop.jpg")no-repeat;
+$imagen-ilustrador: url("../img/ilustrador.jpg")no-repeat;
