@@ -1,17 +1,18 @@
 /*
 Error: File to import not found or unreadable: partials/components/inputs.
-       Load path: /Users/bespinoza/CETAV-WEB-3/Portafolio-web/sass
-        on line 18 of sass/style.scss
+       Load path: /Users/bespinoza/CETAV-WEB-3/Portafolio-web
+        on line 17 of sass/style.scss
 
+12: @import "partials/type";
 13: 
 14: 
 15: // módulos
 16: @import "partials/components/content-item";
-17: @import "partials/components/buttons";
-18: @import "partials/components/inputs";
+17: @import "partials/components/inputs";
+18: @import "partials/components/buttons";
 
 Backtrace:
-sass/style.scss:18
+sass/style.scss:17
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:66:in `rescue in import'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:45:in `import'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -38,20 +39,15 @@ sass/style.scss:18
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/engine.rb:368:in `_render_with_sourcemap'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/engine.rb:285:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:407:in `run'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.0.0/gems/sass-3.4.13/bin/sass:13:in `<top (required)>'
+/usr/bin/sass:23:in `load'
+/usr/bin/sass:23:in `<main>'
 */
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: partials/components/inputs.\A        Load path: /Users/bespinoza/CETAV-WEB-3/Portafolio-web/sass\A         on line 18 of sass/style.scss\A \A 13: \A 14: \A 15: // módulos\A 16: @import \"partials/components/content-item\";\A 17: @import \"partials/components/buttons\";\A 18: @import \"partials/components/inputs\";"; }
+  content: "Error: File to import not found or unreadable: partials/components/inputs.\A        Load path: /Users/bespinoza/CETAV-WEB-3/Portafolio-web\A         on line 17 of sass/style.scss\A \A 12: @import \"partials/type\";\A 13: \A 14: \A 15: // módulos\A 16: @import \"partials/components/content-item\";\A 17: @import \"partials/components/inputs\";\A 18: @import \"partials/components/buttons\";"; }
