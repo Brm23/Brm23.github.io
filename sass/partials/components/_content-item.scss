@@ -1,0 +1,31 @@
+.simple-input {
+  border: 2px solid;
+  border-radius: 5px;
+  transition: all 0.3s ease-out;
+}
+
+.simple-input:hover { 
+	border-radius: 8px; 
+}
+
+.simple-input:focus { 
+  outline: none;
+  border-radius: 8px; 
+  border-color: #EBD292;
+}
+
+.fa-facebook-official:hover {
+	color: $color-facebook;
+}
+
+.fa-google-plus-square:hover {
+	color: $color-google;
+}
+
+.fa-github-square:hover {
+	color: $color-github;
+}
+
+.fa-pinterest-p:hover {
+	color: $color-pinterest;
+}
