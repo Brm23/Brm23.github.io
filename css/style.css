@@ -17,23 +17,6 @@ body {
   max-width: 1280px;
   margin: 0 auto; }
 
-header {
-  background: url("../img/header.jpg") no-repeat;
-  height: 600px;
-  background-size: cover;
-  background-position: 0% 97%; }
-
-nav {
-  margin-left: 26.5%;
-  padding-top: 19px;
-  padding-bottom: 150px; }
-
-nav li {
-  text-align: center;
-  display: inline-block;
-  margin-left: 20px;
-  font-size: 19px; }
-
 .about-me {
   background: url("../img/brm-flor.jpg") no-repeat;
   height: 600px;
@@ -47,10 +30,11 @@ nav li {
   background-position: 0%; }
 
 .content-trabajos {
-  background: url("../img/medusa.jpg") no-repeat;
+  background: url("../img/space.jpg") no-repeat;
   height: 600px;
   background-size: cover;
-  background-position: 0%; }
+  background-position: 0%;
+  background-attachment: fixed; }
 
 .content-contacteme {
   background: url("../img/camaleon-1.png") no-repeat;
@@ -64,6 +48,23 @@ nav li {
   margin-left: 2rem;
   color: #000;
   font-size: 22px; }
+
+.content-header-first {
+  background: url("../img/header.jpg") no-repeat;
+  height: 600px;
+  background-size: 100% 600px;
+  background-attachment: fixed; }
+
+.nav-header-first {
+  margin-left: 26.5%;
+  padding-top: 19px;
+  padding-bottom: 150px; }
+
+.header-li {
+  text-align: center;
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 19px; }
 
 .ch-item {
   width: 100%;
@@ -187,10 +188,6 @@ section .section-2 {
   margin-left: 8rem;
   margin-top: 4px;
   float: left; }
-
-.content-trabajos {
-  background: url(url("../img/medusa.jpg") no-repeat);
-  background-attachment: fixed; }
 
 .ch-info-wrap {
   -webkit-perspective: 800px;

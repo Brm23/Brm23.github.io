@@ -19,6 +19,7 @@
     height: 600px;
     background-size: cover;
     background-position: 0%;
+    background-attachment: fixed;
 }
 
 .content-contacteme {
@@ -35,6 +36,29 @@
 	color: #000;
 	font-size: 22px;
 }
+
+//content-header-first
+
+.content-header-first {
+    background: $imagen-header;
+    height: 600px;
+    background-size: 100% 600px;
+    background-attachment: fixed;
+}
+
+.nav-header-first {
+    margin-left: 26.5%;
+    padding-top: 19px; 
+    padding-bottom: 150px;
+}
+
+.header-li {
+    text-align: center;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 19px;
+}
+
 
 // skills
 
@@ -185,8 +209,8 @@ section {
 
 .social-red {
   i{
-      font-size: 4rem;
-      color: $blanco;
+    font-size: 4rem;
+    color: $blanco;
   }
 }
 
@@ -211,7 +235,3 @@ section {
 
 //trabajos 
 
-.content-trabajos {
-    background: url($imagen-trabajos);
-    background-attachment: fixed;
-}
