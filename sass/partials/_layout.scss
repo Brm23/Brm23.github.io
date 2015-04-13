@@ -195,7 +195,7 @@ section {
     margin-right: 35rem;
     color: #000;
 }
-.send input, textarea, button{
+.send input, textarea, button {
     border: 1px solid;
     padding: 1rem;
     margin: 1rem;
@@ -203,8 +203,15 @@ section {
     color: $blanco;
 }
 
-.send{
+.send {
     margin-left: 8rem;
     margin-top: 4px;
     float: left;
+}
+
+//trabajos 
+
+.content-trabajos {
+    background: url($imagen-trabajos);
+    background-attachment: fixed;
 }
