@@ -1,21 +1,26 @@
-var validar =function(){
+$(document).ready(function(){
+	$.ajax({
+		type: "GET",
+		url: 'js/trabajos.json',
+		dataType: "json",
+   		success:function(data){
+			mostrarTrabajos(data.works);
+			console.log(data);
+					
+		},
+		error:function(jqXHR, textStatus, errorThrown) {
+			console.log("Text Status:" + textStatus + "\nError:" +errorThrown);
+		}
+	});
 
-	function.prototype.method = function(nombre)
-
-	if (typeof nombre !== "sting") {
-
-	}else if(typeof nombre === 'boolean'){
-		
-	}
-
-	};
-
-	var nombre = document.getElementById('nombre')
-	var correo = document.getElementById('correo')
-	var telefono = document.getElementById('telefono')
-	var mensaje = document.getElementById('mensaje')
-
-}
+	function mostrarTrabajos(lista){
+		var showWorks = "";
+		for (var i = 0; i < lista.length; i++){
+			
+		}
+		document.getElementById("").innerHTML = showWorks;
+	}	
 
 
+});
 

@@ -1,0 +1,25 @@
+{
+  "proyectos":[
+    {
+      "img":"images/bg.jpg",
+      "workName":"pagina",
+      "category":"diseño y desarrollo",
+      "description":"Lorem ipsum dolor sit amet."
+    },
+    {
+      "img":"images/bg.jpg",
+      "workName":"pagina",
+      "category":"Web development and design"
+    },
+    {
+      "img":"images/bg.jpg",
+      "workName":"pagina",
+      "category":"Illustration"
+    },
+    {
+      "img":"images/bg.jpg",
+      "workName":"pagina",
+      "category":"Web development and design"
+    }    
+  ]
+}
