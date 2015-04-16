@@ -1,25 +1,37 @@
-{
-  "proyectos":[
+{ 
+  "nombre":"Proyectos",
+  "trabajos":[
     {
-      "img":"images/bg.jpg",
+      "nombre":"Proyecto 1",
+      "img": "img/bg.jpg",
       "workName":"pagina",
       "category":"diseño y desarrollo",
-      "description":"Lorem ipsum dolor sit amet."
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "enlace": "projects/lailuminada/index.html"
     },
-    {
-      "img":"images/bg.jpg",
+    { 
+      "nombre":"Proyecto 2",
+      "img":"img/bg.jpg",
       "workName":"pagina",
-      "category":"Web development and design"
+      "category":"Web",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "enlace": "projects/lailuminada/index.html"
     },
-    {
-      "img":"images/bg.jpg",
+    { 
+      "nombre":"Proyecto 3",
+      "img":"img/bg.jpg",
       "workName":"pagina",
-      "category":"Illustration"
+      "category":"Web",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "enlace": "projects/lailuminada/index.html"
     },
-    {
-      "img":"images/bg.jpg",
+    { 
+      "nombre":"Proyecto 4",
+      "img":"img/bg.jpg",
       "workName":"pagina",
-      "category":"Web development and design"
+      "category":"Web",
+      "description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      "enlace": "projects/lailuminada/index.html"
     }    
   ]
 }

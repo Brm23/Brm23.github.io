@@ -3,7 +3,7 @@
 
 //skills
 
-.ch-info-wrap{
+.child-info-wrap{
 	-webkit-perspective: 800px;
 	-moz-perspective: 800px;
 	-o-perspective: 800px;
@@ -16,7 +16,7 @@
 	-ms-transition: all 0.4s ease-in-out;
 	transition: all 0.4s ease-in-out;
 }
-.ch-info{
+.child-info{
 	-webkit-transition: all 0.4s ease-in-out;
 	-moz-transition: all 0.4s ease-in-out;
 	-o-transition: all 0.4s ease-in-out;
@@ -30,7 +30,7 @@
 	transform-style: preserve-3d;
 }
 
-.ch-info > div {
+.child-info > div {
 	-webkit-backface-visibility: hidden;
 	-moz-backface-visibility: hidden;
 	-o-backface-visibility: hidden;
@@ -39,8 +39,8 @@
 }
 
 
-.ch-info {
-		.ch-info-back {
+.child-info {
+		.child-info-back {
 		-webkit-transform: rotate3d(0,1,0,180deg);
 		-moz-transform: rotate3d(0,1,0,180deg);
 		-o-transform: rotate3d(0,1,0,180deg);
@@ -50,8 +50,8 @@
 	}
 }
 
-.ch-item:hover {
-	.ch-info {
+.child-item:hover {
+	.child-info {
 		-webkit-transform: rotate3d(0,1,0,-180deg);
 		-moz-transform: rotate3d(0,1,0,-180deg);
 		-o-transform: rotate3d(0,1,0,-180deg);
