@@ -129,11 +129,11 @@
 		<footer class="content-contacteme" id="contacteme">
 			<h1 class="title">Contacteme</h1>
 			<form class="send">
-				<input class="simple-input" type="text" size="77" placeholder="Nombre Completo:"></br>
-				<input class="simple-input" type="text" size="77" placeholder="Correo Electronico:"></br>
-				<input class="simple-input" type="text" size="77" placeholder="Telefono:"></br>
+				<input class="simple-input" type="text" size="77" placeholder="Nombre Completo:" title="ingresar nombre" required name="name" id="nombre-contacteme"></br>
+				<p id="resultado"></p>
+				<input class="simple-input" type="email" size="77" required name="email" placeholder="Correo Electronico:" title="ingresar correo electronico"></br>
 				<textarea class="simple-input" type="text" rows="4" cols="55" placeholder="Comentario o Mensaje:"></textarea></br>
-				<button class="button">Enviar</button> 
+				<button class="button" id="button-send">Enviar</button> 
 			</form>
 			<ul class="social-red">
 				<li><a href="https://www.facebook.com/brandon.brm"><i class="fa fa-facebook-official"></i></li>
@@ -144,5 +144,6 @@
 		</footer>
 		<script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/inputValidate.js"></script>
 	</body>
 </html>
